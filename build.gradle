@@ -17,7 +17,8 @@ repositories {
 
 // TODO (1) Spring Shell Starter Dependency hinzufügen
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter',
+			'org.springframework.shell:spring-shell-starter:2.0.0.RELEASE'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
