@@ -1,13 +1,15 @@
 package htw.berlin.ui;
 
-
+import org.springframework.shell.jline.PromptProvider;
 import org.jline.utils.AttributedString;
 import org.jline.utils.AttributedStyle;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
+
+
 @Component
-public class BurgerBotPromptProvider {
+public class BurgerBotPromptProvider implements PromptProvider {
 
     private boolean understood = true;
 
